@@ -1,0 +1,101 @@
+
+
+
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head>
+	<title>Admin LOGIN</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styleadmin.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"> <span>amoeba</span>motors </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#add_vehicle" id="addvehicle">Add Car</a>
+        <a href="#remove_vehicle" id="removevehicle">Remove Car</a>
+        <a href="#update_vehicle" id="updatevehicle">Update Car</a>
+        <a href="#adddriver" id="adddriver">Add Driver</a>
+        <a href="#removedriver" id="removedriver">Remove Driver</a>
+        <a href="#checkbooking" id="checkbooking">Booking Details</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="" method="POST">
+        <h3>Admin login</h3>
+        <input type="text" placeholder="email" name="adminemail" class="box">
+        <input type="password" placeholder="password" name="adminpass" class="box">
+        <a href="adminfinal.html" class="btn">login</a>
+        
+        <p id="signup-btn"> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+    
+<div class="signup-form-container">
+
+    <span id="close-signup-form" class="fas fa-times"></span>
+
+    <form action="" method="POST">
+        <h3>Admin Signup</h3>
+        <input type="text" placeholder="First name" name="fname" class="box">
+        <input type="text" placeholder="Last name" name="lname" class="box">
+        <input type="text" placeholder="House number" name="hno" class="box">
+        <input type="text" placeholder="City name" name="city" class="box">
+        <input type="number" placeholder="Aadhar number" name="aadhar" class="box">
+        <input type="tel" placeholder="contact number" name="contact1" class="box">
+        <input type="tel" placeholder="contact number 2" name="contact2" class="box">
+        <input type="email" placeholder="Email" name="email" class="box">
+        <input type="password" placeholder="password" name="password" class="box">
+        <a href="adminfinal.html" class="btn">login</a>
+        
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">Rent A Car</h3>
+
+    <img data-speed="5" class="home-parallax" src="home-img.png" alt="">
+
+    
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="scriptadmin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head>
+	<title>ADD CAR</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="adminfinal.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"> <span>amoeba</span>motors </a>
+
+    <nav class="navbar">
+        <a href="adminfinal.html">BACK</a>
+        <a href="removecar.html">Remove Car</a>
+        <a href="updatecar.html">Update Car</a>
+        <a href="adddriver.html">Add Driver</a>
+        <a href="removedriver.html">Remove Driver</a>
+        <a href="checkbooking.html">Booking Details</a>
+    </nav>
+    <div id="login-btn">
+        <button class="btn">logout</button>
+    </div>
+    
+
+</header> 
+
+
+<div class="addcarform">
+
+    <form action="" method="POST">
+        <h3>ADD CAR</h3>
+        <input type="text" placeholder="Brand" name="brand" class="box">
+        <input type="text" placeholder="Model" name="model" class="box">
+        <input type="text" placeholder="Price" name="price" class="box">
+        <input type="text" placeholder="Regestration Number" name="carnum" class="box">
+        <input type="text" placeholder="Mileage" name="mileage" class="box">
+        <input type="file" placeholder="Upload Photo" class="box">
+        <input type="text" placeholder="Owner name" name="ownname" class="box">
+        <input type="tel" placeholder="Owner contact number " name="ownnum" class="box">
+
+        <input type="submit" name="submit1" value="Add Car" class="btn">
+        
+    </form>
+
+</div>
+
+
+<script src="scriptadmin.js"></script>
+
+</body>
+</html>
